@@ -33,8 +33,8 @@ class RetoBackTest {
 	public void testSatelites() {
 		Satelite satelite1 = new Satelite();
 		satelite1.setName("kenobi");
-		//String [] mensaje = {"este", "", "", "mensaje", ""};
-		String [] mensaje = null;
+		String [] mensaje = {"este", "", "", "mensaje", ""};
+		//String [] mensaje = null;
 		satelite1.setMessage(mensaje);
 		satelite1.setDistance(100.0);
 		
